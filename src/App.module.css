@@ -1,0 +1,28 @@
+.main {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.movieListContainer {
+  display: flex;
+  width: 60%;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+    padding-left: 2%;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+  }
